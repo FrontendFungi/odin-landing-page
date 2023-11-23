@@ -18,6 +18,10 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 footer {
     margin-top: auto;
     text-align: center;
