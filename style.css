@@ -3,6 +3,11 @@
     background-color: #1f2937;
 }
 
+.sub-text, .header a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -53,7 +58,6 @@ li {
 
 a {
     text-decoration: none;
-    /* color: white; */
 }
 
 footer {
