@@ -4,6 +4,22 @@
     justify-content: space-around;
 }
 
+.logo {
+    margin: 0;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left {
+    width: 270px;
+}
+
+
+
 body {
     display: flex;
     flex-direction: column;
