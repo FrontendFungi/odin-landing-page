@@ -21,7 +21,6 @@ button, .cta-box {
 .logo {
     margin: 0;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -55,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
