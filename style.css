@@ -12,6 +12,10 @@ button, .cta-box {
     background-color: #3882f6;
 }
 
+.hero {
+    padding: 75px 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
