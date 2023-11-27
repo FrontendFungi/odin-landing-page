@@ -18,11 +18,16 @@ button, .cta-box {
     background-color: #3882f6;
 }
 
+.wrapper {
+    display: flex;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .header-hero {
@@ -61,8 +66,6 @@ button, .cta-box {
     margin-left: 115px;
 }
 
-.hero
-
 .placeholder {
     background-color: grey;
     padding: 100px;
@@ -86,6 +89,25 @@ button, .cta-box {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin-right: 52px;
+  width: 200px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 
