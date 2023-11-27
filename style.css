@@ -12,6 +12,13 @@ button, .cta-box {
     background-color: #3882f6;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     width: 100%;
     display: flex;
@@ -30,7 +37,15 @@ button, .cta-box {
 }
 
 .hero-left {
-    width: 270px;
+    width: 370px;
+}
+
+.sign-up {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 75px;
 }
 
 .main-text {
@@ -42,8 +57,6 @@ button, .cta-box {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-
-
 }
 
 
