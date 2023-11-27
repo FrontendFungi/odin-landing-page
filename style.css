@@ -25,17 +25,20 @@ button, .cta-box {
     align-items: center;
 }
 
+.header-hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 
 .header {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.hero {
-    padding: 100px;
-}
 
 .logo {
     margin: 0;
@@ -45,12 +48,20 @@ button, .cta-box {
 .hero {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 100px;
 }
 
 .hero-left {
     width: 370px;
+    margin-right: 115px;
 }
+
+.hero-right {
+    margin-left: 115px;
+}
+
+.hero
 
 .placeholder {
     background-color: grey;
